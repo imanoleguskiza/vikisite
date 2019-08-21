@@ -6,11 +6,11 @@ pages:
   process:
     markdown: true
     twig: false
-  markdown: 
-    extra: true  
+  markdown:
+    extra: true
 
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
@@ -18,8 +18,8 @@ cache:
 
 twig:
   cache: true
-  debug: true
-  auto_reload: true
+  debug: false
+  auto_reload: false
   autoescape: false
 
 assets:
@@ -31,6 +31,6 @@ assets:
 
 debugger:
   enabled: false
-  twig: true
+  twig: false
   shutdown:
     close_connection: true

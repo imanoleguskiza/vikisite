@@ -1,9 +1,9 @@
 title: 'Viktoria Dimitrova'
 default_lang: en
 author:
-  name: Grav
-  email: joe@test.com
-  description: 'Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+  name: Viktoria Dimitrova
+  email: dimitrova.vikiv@gmail.com
+  description: "Viktoria Dimitrova's personal site"
   url: 'http://getgrav.org/'
   logo: logo.jpg
 taxonomies:
@@ -11,7 +11,7 @@ taxonomies:
   - tag
   - month
 metadata:
-  description: 'This is Viktoria Dimitrova''s personal page'
+  description: "Viktoria Dimitrova's personal site"
 summary:
   enabled: true
   format: short
@@ -21,15 +21,6 @@ blog:
   route: ''
 google_translate_token: a4a3caaf1d41a924-5fa21ae3833dd6c1-g99933840045dca1c-26
 mainmenu:
-  -
-    text: 'Menu Item'
-    url: '#'
-  -
-    text: 'Another Item'
-    url: '#'
-  -
-    text: 'One more'
-    url: '#'
   -
     text: Contact
     url: 'page:contact'
@@ -71,8 +62,8 @@ masterslider_setup:
   view: basic
 feedburner:
   title: 'Follow by Email'
-  id: SoraArticle
-  text: 'Subscribe here to get our newsletter, it is safe just Put your Email and Press Enter'
+  id: Newsletter
+  text: 'Subscribe here to get my newsletter, it is safe just Put your Email and Press Enter'
 labels:
   title: Labels
   items:
